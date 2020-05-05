@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../libft.h"
+#include "../../libft/libft.h"
 
 int main()
 {
@@ -22,15 +22,19 @@ int main()
 	test[11] = "";
 
 
-	printf("*************** atoi *****************\n\n");
+	//printf("*************** atoi *****************\n\n");
 	while (i <= 11)
 	{
 		if (atoi(test[i]) == ft_atoi(test[i]))
-			printf("✓	");
+			write(1, "✓		", ft_strlen("✓		"));
 		else
-			printf("X	");
-		printf("atoi: %d	ft_atoi: %d\n", atoi(test[i]), ft_atoi(test[i]));
+			write(1, "X		", ft_strlen("X		"));
+
+		write(1, "atoi: ", 6);
+		write(1, (char)atoi(test[i]), 2);
+		//"+ &(char)ft_atoi(test[i]) + "	ft_atoi: %d\n", 
+		//	ft_strlen("atoi: %d	ft_atoi: %d\n"));
 		i++;
 	}
-	printf("\n*************** atoi *****************\n\n");
+	//printf("\n*************** atoi *****************\n\n");
 }
