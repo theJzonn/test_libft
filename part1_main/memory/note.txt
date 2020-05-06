@@ -1,0 +1,32 @@
+memset_test
+4444
+3334
+2234
+1234
+bzero_test
+all ok
+all ok
+memcpy_test
+jjjj
+tejj
+tesj
+test
+memccpy_test
+jjjjj
+jj
+tesjj
+
+testj
+memove_test
+jjjj
+tejj
+tesj
+test
+memchr_test
+Find the c charactere tu voit
+c charactere tu voit
+
+voit
+memcmp_test
+return 0 all ok
+return 1 or -1 all ok
