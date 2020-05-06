@@ -38,9 +38,6 @@ int		main()
 
 	write(1, "memcmp_test\n", sizeof("memcmp_test\n"));
 	memcmp_test();
-<<<<<<< HEAD
 
 	return (0);
-=======
->>>>>>> f0c4d8ec64b983b267733520c7f4acd1353b387c
 }
